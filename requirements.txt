@@ -1,0 +1,8 @@
+pandas==3.1.0
+numpy==2.5.4
+scipy==1.18.1
+mlxtend==0.25.0
+streamlit==1.66.1
+pyarrow==26.0.0
+pytest==...
+ipykernel==...
