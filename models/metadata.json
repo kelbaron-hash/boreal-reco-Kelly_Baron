@@ -1,0 +1,275 @@
+{
+ "mining_date": "2026-11-04T23:14:11.153503",
+ "algorithm": "mlxtend apriori (low_memory=True) + association_rules",
+ "data": {
+  "baskets": 1000000,
+  "products": 98
+ },
+ "thresholds": {
+  "min_support": 0.005,
+  "min_confidence": 0.05,
+  "min_lift": 1.2,
+  "consequent_size": 1
+ },
+ "metrics": {
+  "itemsets": 7106,
+  "largest_itemset": 7,
+  "apriori_seconds": 32.09,
+  "apriori_peak_memory_mb": 110.0
+ },
+ "number_of_rules": 9256,
+ "coverage": {
+  "products_that_can_be_recommended": 57,
+  "total_products": 98,
+  "coverage_ratio": 0.5816
+ },
+ "not_recommendable": {
+  "Bagels": {
+   "share_of_baskets": 0.062716,
+   "best_lift": 1.018,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Baguette": {
+   "share_of_baskets": 0.0694,
+   "best_lift": 1.02,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Beurre": {
+   "share_of_baskets": 0.134223,
+   "best_lift": 1.034,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Beurre d'arachide": {
+   "share_of_baskets": 0.153726,
+   "best_lift": 1.025,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Biscuits": {
+   "share_of_baskets": 0.161439,
+   "best_lift": 1.035,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Carottes": {
+   "share_of_baskets": 0.031441,
+   "best_lift": null,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Caviar": {
+   "share_of_baskets": 0.00081,
+   "best_lift": null,
+   "reason": "below min_support: too rare to reach the threshold"
+  },
+  "Chocolat noir": {
+   "share_of_baskets": 0.072676,
+   "best_lift": 1.03,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Cidre de glace": {
+   "share_of_baskets": 0.058224,
+   "best_lift": 1.018,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Confiture de fraises": {
+   "share_of_baskets": 0.055439,
+   "best_lift": 1.022,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Crevettes": {
+   "share_of_baskets": 0.118848,
+   "best_lift": 1.025,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Crème glacée": {
+   "share_of_baskets": 0.091824,
+   "best_lift": 1.024,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Céréales": {
+   "share_of_baskets": 0.139198,
+   "best_lift": 1.026,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Détergent à lessive": {
+   "share_of_baskets": 0.079215,
+   "best_lift": 1.038,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Eau pétillante": {
+   "share_of_baskets": 0.082013,
+   "best_lift": 1.017,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Foie gras": {
+   "share_of_baskets": 0.000756,
+   "best_lift": null,
+   "reason": "below min_support: too rare to reach the threshold"
+  },
+  "Fromage cheddar": {
+   "share_of_baskets": 0.143457,
+   "best_lift": 1.03,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Fromage suisse": {
+   "share_of_baskets": 0.093179,
+   "best_lift": 1.04,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Huile de truffe": {
+   "share_of_baskets": 0.000817,
+   "best_lift": null,
+   "reason": "below min_support: too rare to reach the threshold"
+  },
+  "Lait 2%": {
+   "share_of_baskets": 0.118554,
+   "best_lift": 1.032,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Moutarde de Dijon": {
+   "share_of_baskets": 0.082498,
+   "best_lift": 1.02,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Noix mélangées": {
+   "share_of_baskets": 0.155189,
+   "best_lift": 1.016,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Oignons": {
+   "share_of_baskets": 0.122623,
+   "best_lift": 1.036,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Pain tranché": {
+   "share_of_baskets": 0.078791,
+   "best_lift": 1.032,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Papier essuie-tout": {
+   "share_of_baskets": 0.060049,
+   "best_lift": 1.019,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Papier hygiénique": {
+   "share_of_baskets": 0.139758,
+   "best_lift": 1.026,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Petits pois surgelés": {
+   "share_of_baskets": 0.072763,
+   "best_lift": 1.023,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Pizza surgelée": {
+   "share_of_baskets": 0.112911,
+   "best_lift": 1.037,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Poitrine de poulet": {
+   "share_of_baskets": 0.055945,
+   "best_lift": 1.019,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Pommes": {
+   "share_of_baskets": 0.091337,
+   "best_lift": 1.033,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Riz basmati": {
+   "share_of_baskets": 0.080268,
+   "best_lift": 1.026,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Sac réutilisable": {
+   "share_of_baskets": 0.900026,
+   "best_lift": 1.012,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Sacs à ordures": {
+   "share_of_baskets": 0.114565,
+   "best_lift": 1.027,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Safran": {
+   "share_of_baskets": 0.000818,
+   "best_lift": null,
+   "reason": "below min_support: too rare to reach the threshold"
+  },
+  "Savon à vaisselle": {
+   "share_of_baskets": 0.14982,
+   "best_lift": 1.025,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Sucre blanc": {
+   "share_of_baskets": 0.121167,
+   "best_lift": 1.025,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Thon en conserve": {
+   "share_of_baskets": 0.095841,
+   "best_lift": 1.022,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Thé vert": {
+   "share_of_baskets": 0.092932,
+   "best_lift": 1.034,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Tortillas": {
+   "share_of_baskets": 0.103775,
+   "best_lift": 1.02,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  },
+  "Vinaigre balsamique vieilli": {
+   "share_of_baskets": 0.000779,
+   "best_lift": null,
+   "reason": "below min_support: too rare to reach the threshold"
+  },
+  "Yogourt grec": {
+   "share_of_baskets": 0.102655,
+   "best_lift": 1.025,
+   "reason": "frequent but bought independently of other products: no rule with lift above the cutoff"
+  }
+ },
+ "popular_products": [
+  {
+   "product": "Sac réutilisable",
+   "share_of_baskets": 0.900026
+  },
+  {
+   "product": "Biscuits",
+   "share_of_baskets": 0.161439
+  },
+  {
+   "product": "Noix mélangées",
+   "share_of_baskets": 0.155189
+  },
+  {
+   "product": "Beurre d'arachide",
+   "share_of_baskets": 0.153726
+  },
+  {
+   "product": "Bière",
+   "share_of_baskets": 0.150468
+  },
+  {
+   "product": "Savon à vaisselle",
+   "share_of_baskets": 0.14982
+  },
+  {
+   "product": "Fromage cheddar",
+   "share_of_baskets": 0.143457
+  },
+  {
+   "product": "Charbon de bois",
+   "share_of_baskets": 0.140561
+  },
+  {
+   "product": "Papier hygiénique",
+   "share_of_baskets": 0.139758
+  },
+  {
+   "product": "Céréales",
+   "share_of_baskets": 0.139198
+  }
+ ]
+}

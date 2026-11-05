@@ -1,0 +1,5 @@
+min_support,low_memory,itemsets,largest_itemset,seconds,peak_memory_mb,outcome
+0.05,True,191,4,2.44,106.5,success
+0.02,True,658,5,6.05,109.9,success
+0.01,True,2267,7,14.44,109.9,success
+0.005,True,7106,7,32.09,110.0,success
